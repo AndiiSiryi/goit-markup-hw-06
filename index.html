@@ -402,6 +402,25 @@
             </li>
           </ul>
         </div>
+        <div class="footer-submit">
+          <p class="footer-text-media">Subscribe</p>
+          <form class="footer-form">
+            <label for="submit-mail"></label>
+            <input
+              type="email"
+              name="submit-mail"
+              id="submit-mail"
+              placeholder="E-mail"
+              class="footer-mail"
+            />
+            <button type="submit" class="button button-footer">
+              Subscribe
+              <svg class="icon-send" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -454,9 +473,11 @@
           <div class="check-line">
             <label for="policy">
               <input type="checkbox" name="policy" class="checkbox" />
-              <svg class="icon-chek" width="16" height="16">
-                <use href="./images/icons.svg#icon-chek"></use>
-              </svg>
+              <div class="checkbox-icon">
+                <svg class="icon-chek" width="10" height="8">
+                  <use href="./images/icons.svg#icon-chek"></use>
+                </svg>
+              </div>
               <p>
                 I accept the terms and conditions of the
                 <a href="">Privacy Policy</a>
